@@ -1,0 +1,5 @@
+# Runtime. crewai pulls the LLM client stack and is only needed to actually triage.
+# Note: crewai currently lags the newest CPython; if install fails, use Python 3.11/3.12.
+crewai==0.86.0
+pydantic==2.13.4
+python-dotenv==1.0.1
